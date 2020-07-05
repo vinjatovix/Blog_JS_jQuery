@@ -9,6 +9,19 @@
 
     <!-- Estilos css-->
     <link rel="stylesheet" href="css/styles.css" />
+
+
+    <!-- Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+    </script>
+
 </head>
 
 <body>
@@ -40,10 +53,10 @@
         </header>
 
         <!-- Slider -->
-        <div id="slider">
-
+        <div class="slider">
+            <div>I am a slide.</div>
+            <div>I am another slide.</div>
         </div>
-
 
         <!-- Contenido Principal -->
         <section id="content">
@@ -142,19 +155,19 @@
                 </div>
 
                 <div id="loginForm">
-                    <div class='sideBox'> 
+                    <div class='sideBox'>
 
                         <h4>Login</h4>
                         <form action="" method="post">
                             <label for="name">User: </label><br>
                             <input type="text" name="name" id="login"><br>
-                            
+
                             <label for="email">Email: </label><br>
                             <input type="email" name="email" id="email"><br>
-                            
+
                             <label for="password">Password: </label><br>
                             <input type="password" name="pass" id="password"><br>
-                            
+
                             <input type="submit" value="Log In" class='submitBtn'>
                         </form>
                     </div>
@@ -164,11 +177,11 @@
             <div class="clearfix"></div>
         </section>
         <!-- Fin del contenido Principal -->
-        
+
     </section>
     <div class="clearfix"></div>
     <!-- Fin de la sección Global -->
-    
+
     <footer>
         &copy;2020 Pablo Viña - info@sonvina.es - http://Sonvina.es
     </footer>

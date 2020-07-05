@@ -172,6 +172,7 @@ form input[type='submit']{
     padding-right: 30px;
     border: 2px solid rgba(80, 60, 195, 0.294);
     cursor: pointer;
+    margin-bottom: 10px;
 
 }
 
