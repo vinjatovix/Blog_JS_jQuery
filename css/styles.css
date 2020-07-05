@@ -71,7 +71,8 @@ a:hover{
 }
 
 .bx-wrapper, .bx-viewport {
-    height: 200px !important; //provide height of slider
+    height: 200px !important;
+    border: 0 !important;
 }
 #content {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
