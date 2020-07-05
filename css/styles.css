@@ -23,7 +23,7 @@ body {
     margin: 0px auto;
     margin-top: 30px auto;
     background-color: rgba(47, 47, 47, 0.794);
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0px 0px 5px rgb(255, 255, 255);
 
 }
@@ -40,10 +40,156 @@ body {
     line-height: 75px;
 }
 
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.178);
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#menu ul {
+    line-height: 46px;   
+    list-style: none;
+}
+
+#menu ul li {
+    line-height: 46px;
+    display: inline-block;
+}
+
+#menu a {
+    display: block;
+    color: #fc9e6f;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 300ms;
+}
+a:hover{
+    background: rgb(35, 53, 17);
+    color: cornsilk;
+}
 #content {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a {
+#articles {
+    width: 60%;
+    float: left;
+
+}
+
+.article h2{
+    margin-top: 30px;
+    font-size: 30px; 
+}
+
+.article .date {
+    display: block;
+    color: rgb(184, 87, 106);
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.article p{
+    margin-bottom: 25px;
+    line-height: 20px;
+    padding-left: 7px;
+    text-align: justify;
+}
+
+.button-more {
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    background: rgba(22, 5, 5, 0.452);
     color: #fc9e6f;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 31%;
+    float: right;
+}
+
+#sidebar h4 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 10px;
+    color:#fc9e6f;
+}
+#sidebar img{
+    width: 80%;
+}
+
+#sidebar p{
+    padding: 10px;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.sideBox {
+    margin-top: 15x;
+    background: rgba(0, 0, 0, 0.465);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+.sideBox h4 {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+form input[type='text'],
+form input[type='password'],
+form input[type='email']{
+    padding: 5px;
+    border-radius: 20px;
+    border-color: rgba(116, 116, 116, 0.959);
+    width: 60%;
+    margin-bottom: 10px;
+    box-shadow: -3px -3px 10px rgba(31, 29, 29, 0.445);
+}
+
+form input[type='submit']{
+    background: rgba(93, 15, 15, 0.52);
+    color: #fc9e6f;
+    line-height: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid rgba(80, 60, 195, 0.294);
+    cursor: pointer;
+
+}
+
+footer{
+    margin: 0px auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    height: 47px;
+    line-height: 47px;
+    background: rgba(0, 0, 0, 0.815);
+    width: 65%;
+    box-shadow: 0px 0px 5px rgb(25, 119, 45);
+    padding-left: 20px;
+    padding-right: 20px;
+
+
 }
