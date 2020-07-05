@@ -69,6 +69,10 @@ a:hover{
     background: rgb(35, 53, 17);
     color: cornsilk;
 }
+
+.bx-wrapper, .bx-viewport {
+    height: 200px !important; //provide height of slider
+}
 #content {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
