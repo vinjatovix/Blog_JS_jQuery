@@ -201,3 +201,39 @@ footer{
 
 
 }
+
+#change-theme {
+    position: fixed;
+    top: 40%;
+    background: #181716a2;
+    width: 50px;
+    height:133px;
+}
+
+#to-red,
+#to-green,
+#to-blue,
+#to-dark{
+
+    width: 25px;
+    height: 25px;
+    top: 40%;
+    display: block;
+    margin: 0px auto;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#to-red{
+    background: red;
+}
+#to-green{
+    background: green;
+}
+#to-blue{
+    background: blue;
+}
+#to-dark{
+    background: black;
+}

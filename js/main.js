@@ -1,5 +1,5 @@
 (function () {
-    'use strict';
+    "use strict";
 
     //? Artículos metodos extraidos de getArticles.js
     let articles = getArticles();
@@ -9,12 +9,14 @@
 
     });
 
-
+    themeSelector();
+        
 
 
 
 
 }());
+
 
 
 

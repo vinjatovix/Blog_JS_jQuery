@@ -1,0 +1,93 @@
+
+
+body {
+    background: url('../img/bgCassete.jpg');
+
+    color: rgb(187, 187, 187);
+}
+
+
+#global {
+
+    background-color: rgba(15, 15, 15, 0.794);
+
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+}
+
+#logo {
+
+    background-color: rgba(255, 235, 205, 0.109);
+
+}
+
+#menu {
+    background: rgba(0, 0, 0, 0.178);
+
+}
+
+#menu a {
+    color: #fc9e6f;
+
+}
+a:hover{
+    background: rgb(35, 53, 17) !important;
+    color: cornsilk !important; 
+}
+
+
+.article .date {
+
+    color: rgb(184, 87, 106);
+
+}
+
+
+
+.button-more {
+
+    background: rgba(22, 5, 5, 0.452);
+    color: #fc9e6f;
+
+}
+
+
+#sidebar h4 {
+
+    color:#fc9e6f;
+}
+
+
+.sideBox {
+    background: rgba(0, 0, 0, 0.465);
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+
+}
+
+form input[type='text'],
+form input[type='password'],
+form input[type='email']{
+    padding: 5px;
+    border-radius: 0px;
+    border-color: rgba(116, 116, 116, 0.959);
+    box-shadow: -3px -3px 10px rgba(31, 29, 29, 0.445);
+}
+
+form input[type='submit']{
+    background: rgba(7, 1, 1, 0.52) !important;
+    color: #fc9e6f;
+    border: 2px solid rgba(80, 60, 195, 0.294);
+
+}
+
+footer{
+
+    color: white;
+
+    background: rgba(0, 0, 0, 0.815);
+    box-shadow: 0px 0px 5px rgb(25, 119, 45);
+
+
+
+}

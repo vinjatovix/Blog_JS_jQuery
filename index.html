@@ -11,6 +11,10 @@
 
     <!-- Estilos css-->
     <link rel="stylesheet" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" href="css/blue.css" />
+<!--     <link id="theme" rel="stylesheet" href="css/dark.css" />
+    <link id="theme" rel="stylesheet" href="css/red.css" />
+    <link id="theme" rel="stylesheet" href="css/green.css" /> -->
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -26,6 +30,7 @@
 
     <!-- Main JS -->
     <script src='./js/getArticles.js'></script>
+    <script src='./js/themeSelector.js'></script>
     <script src='./js/main.js'></script>
 
 
@@ -33,6 +38,12 @@
 </head>
 
 <body>
+    <div id="change-theme">
+        <div id="to-red"></div>
+        <div id='to-green'></div>
+        <div id='to-blue'></div>
+        <div id='to-dark'></div>
+    </div>
     <section id="global">
         <!-- Cabecera -->
         <header>
