@@ -6,7 +6,6 @@ function themeSelector() {
         //? Selector de tema de color de la página
         let theme = $("#theme");
 
-        console.log(theme.attr('href'));
 
         $("#to-red").click(function () {
 
