@@ -92,6 +92,8 @@ a:hover{
 .article .date {
     display: block;
     color: rgb(184, 87, 106);
+    font-style: italic;
+    font-size: small;
     margin-left: 25px;
     margin-top: 5px;
     margin-bottom: 10px;
