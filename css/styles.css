@@ -225,18 +225,19 @@ footer{
     margin-top: 5px;
     margin-bottom: 5px;
     cursor: pointer;
+    border-radius: 15px;
 }
 #to-red{
-    background: red;
+    background: rgba(255, 0, 0, 0.602);
 }
 #to-green{
-    background: green;
+    background: rgba(0, 128, 0, 0.63);
 }
 #to-blue{
-    background: blue;
+    background: rgba(0, 0, 255, 0.609);
 }
 #to-dark{
-    background: black;
+    background: rgba(0, 0, 0, 0.589);
 }
 
 .goTop {
