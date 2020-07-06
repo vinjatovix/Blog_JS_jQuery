@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="gl">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>
         Proyecto JS jQuery
     </title>
+
+
 
     <!-- Estilos css-->
     <link rel="stylesheet" href="css/styles.css" />
@@ -16,7 +18,16 @@
     <!-- Slider -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src='./js/slider.js'></script>
+
+    <!-- Moment JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js"></script>
+
+    <!-- Main JS -->
+    <script src='./js/getArticles.js'></script>
     <script src='./js/main.js'></script>
+
 
 
 </head>
@@ -61,79 +72,7 @@
 
             <!-- Articulos -->
             <div id="articles">
-                <article class="article">
-                    <h2>Artículo de prueba 1</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-                <article class="article">
-                    <h2>Artículo de prueba 2</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-                <article class="article">
-                    <h2>Artículo de prueba 3</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-                <article class="article">
-                    <h2>Artículo de prueba 4</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-                <article class="article">
-                    <h2>Artículo de prueba 5</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-                <article class="article">
-                    <h2>Artículo de prueba 6</h2>
-                    <span class="date">Fecha de publicación</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nemo aliquid qui vero magni
-                        beatae eos asperiores distinctio et sequi rem quo tempore totam iste, placeat repudiandae,
-                        repellendus ipsam. Non!
-
-                    </p>
-                    <a href="#" class="button-more">Leer más</a>
-
-                </article>
-                <div class="clearfix"></div>
-
+ 
             </div>
 
             <!-- Panel Lateral -->
@@ -143,11 +82,7 @@
                     <img src="./img/bgFlag.png">
                     <p>Aliquam feugiat cursus odio non ultricies. Suspendisse in lorem vitae orci finibus tincidunt.
                         Suspendisse purus ligula, dignissim rhoncus rhoncus nec, laoreet ut elit. Phasellus fringilla,
-                        felis vitae imperdiet convallis, elit augue maximus ligula, quis pretium orci enim nec enim.
-                        Cras finibus mi dui, eget lobortis ante sodales nec. Morbi in libero porta dui faucibus
-                        ullamcorper. Nulla sed diam non tellus dictum vulputate. Aliquam in molestie turpis, et semper
-                        orci. Praesent sed est purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        vehicula neque nec elementum auctor.
+                        felis vitae imperdiet convallis, elit augue maximus ligula.
 
                     </p>
                 </div>
